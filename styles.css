@@ -1,0 +1,40 @@
+/* Mobile First */
+img {
+    width: 30%;
+    padding: 2%;
+    border: lightcoral dotted 2px;
+}
+h1 {
+    color: lightsalmon;
+    font-family: 'Courier New', Courier, monospace;
+}
+p {
+    color: lightseagreen;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+.header {
+    border-style: solid; 
+    border-color: lightseagreen;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.destination {
+    width: 30%;
+    margin: 10px;
+}
+/* Desktop Styles */
+@media (min-width: 550px) {
+    /* styles here */
+    body {
+        display: flex;
+    }
+}
