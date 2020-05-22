@@ -37,4 +37,7 @@ p {
     body {
         display: flex;
     }
+    .destination {
+        width: 25%;
+    }
 }
